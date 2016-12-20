@@ -1,0 +1,49 @@
+p {
+/*	text-indent: 50px;*/
+	line-height: 1.5;
+}
+
+li {
+	margin-top: 8px;
+}
+
+center-block {
+	text-align: center;
+}
+
+sub-title {
+	font-family: 'Helvetica';
+	font-size: 16pt;
+	font-style: italic;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Helvetica';
+}
+
+p, li {
+	font-size: 16pt;
+}
+
+.footer-right {
+	float: right;
+}
+
+.footer-left {
+	float: left;
+}
+
+@media (max-width: 600px) {
+	p, li{
+		font-size: 12pt;
+	}
+
+	p {
+		line-height: 2.0;
+	}
+
+	sub-title {
+		font-size: 12pt;
+	}
+}
+
